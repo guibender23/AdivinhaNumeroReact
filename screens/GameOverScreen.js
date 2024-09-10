@@ -14,7 +14,7 @@ function GameOverScreen({ roundsNumber, userNumber, onStartNewGame }) {
         />
       </View>
       <Text style={styles.summaryText}>
-        Yout phone need <Text style={styles.highlight}>{roundsNumber}</Text>{" "}
+        Your phone need <Text style={styles.highlight}>{roundsNumber}</Text>{" "}
         rounds to guess the number{" "}
         <Text style={styles.highlight}>{userNumber}</Text>
       </Text>
